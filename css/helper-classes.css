@@ -1,0 +1,57 @@
+/* ============================= clearfix */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height:1%; }
+.clearfix { display:block; }
+
+
+/* ============================= Element Reset */
+.reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+
+
+/* ============================= Hide */
+.hidden { display: none; }
+.hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }
+.text-hidden { text-indent: -9999px; display: block; }
+
+
+/* ============================= Cursor Styles */
+.cursor-move { cursor: move; }
+.cursor-default { cursor: default; }
+/*TODO: Add more here*/
+
+
+/* ============================= Rounded Corners */
+.corner-all, .corner-top, .corner-left, .corner-tl { -moz-border-radius-topleft: 12px; -webkit-border-top-left-radius: 12px; -khtml-border-top-left-radius: 12px; border-top-left-radius: 12px; }
+.corner-all, .corner-top, .corner-right, .corner-tr { -moz-border-radius-topright: 12px; -webkit-border-top-right-radius: 12px; -khtml-border-top-right-radius: 12px; border-top-right-radius: 12px; }
+.corner-all, .corner-bottom, .corner-left, .corner-bl { -moz-border-radius-bottomleft: 12px; -webkit-border-bottom-left-radius: 12px; -khtml-border-bottom-left-radius: 12px; border-bottom-left-radius: 12px; }
+.corner-all, .corner-bottom, .corner-right, .corner-br { -moz-border-radius-bottomright: 12px; -webkit-border-bottom-right-radius: 12px; -khtml-border-bottom-right-radius: 12px; border-bottom-right-radius: 12px; }
+
+
+/* ============================= Shadow */
+.shadow { moz-box-shadow: 0 0 5px rgba(0,0,0,.5); -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5); box-shadow: 0 0 5px rgba(0,0,0,.5); }
+.shadow-12 { moz-box-shadow: 0 0 12px rgba(0,0,0,.5); -webkit-box-shadow: 0 0 12px rgba(0,0,0,.5); box-shadow: 0 0 12px rgba(0,0,0,.5); }
+.shadow-vertical { moz-box-shadow: 0 6px 5px rgba(0,0,0,.5); -webkit-box-shadow: 0 6px 5px rgba(0,0,0,.5); box-shadow: 0 6px 5px rgba(0,0,0,.5); }
+
+
+/* ============================= Opacity */
+.opacity-40 {opacity: .40; filter: Alpha(Opacity=40); }
+.opacity-45 {opacity: .45; filter: Alpha(Opacity=45); }
+.opacity-50 {opacity: .50; filter: Alpha(Opacity=50); }
+.opacity-55 {opacity: .55; filter: Alpha(Opacity=55); }
+.opacity-60 {opacity: .60; filter: Alpha(Opacity=60); }
+.opacity-65 {opacity: .65; filter: Alpha(Opacity=65); }
+.opacity-70 {opacity: .70; filter: Alpha(Opacity=70); }
+.opacity-75 {opacity: .75; filter: Alpha(Opacity=75); }
+.opacity-80 {opacity: .80; filter: Alpha(Opacity=80); }
+.opacity-85 {opacity: .85; filter: Alpha(Opacity=85); }
+.opacity-90 {opacity: .90; filter: Alpha(Opacity=90); }
+.opacity-95 {opacity: .95; filter: Alpha(Opacity=95); }
+
+
+/* ============================= Modals */
+.modal { position:absolute; left:0; top:0; z-index:9999; background-color: #fff; }
+
+
+/* ============================= Overlays */
+.page-overlay {position: absolute; left:0; top:0; bottom:0; right:0; z-index:9998; background-color:rgba(0, 0, 0, 0.5); }
